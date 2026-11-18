@@ -1,0 +1,104 @@
+/* 
+* = TUDO
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bangers", system-ui;
+}
+
+html{
+     height: 100%;
+}
+
+body {
+    background-image: url("img/background2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.nome {
+    color: #ff3cac ;
+    font-size: 360px;
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 500px;
+    width: 100%;
+
+}
+
+.personagem {
+    position: absolute;
+    bottom: 0;  
+    left: 0;
+    right: 0;
+    
+
+    height: 700px;
+    margin: 0 auto;
+}
+
+.textos {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.etiqueta {
+    font-size: 26px;
+    color: #ffd319;
+
+}
+
+h1 {
+    font-size: 72px;
+    color: white;
+
+}
+
+.texto-apoio {
+    font-size: 14px;
+    color: white;
+    
+}
+
+.menu {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    border-radius: 50px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid #ffff;
+
+
+}
+
+.voce {
+    background-color: #ffd319;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+
+
+
+/* 
+h1 - seletor 
+color - propriedade
+red - valor da propriedade  
+sempre - terminar com ;
+sempre - colocar entre : entre a propriedade e o valor
+*/
